@@ -1,0 +1,9 @@
+.idea
+/target
+/out
+/var
+*.iml
+*.db
+
+/src/main/webapp/vendor
+node_modules

@@ -1,0 +1,71 @@
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0
+            http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 ">
+
+    <id>webappAchetype</id>
+
+    <sources>
+        <source>src/main/java/dao/hibernate/dialect/SQLiteDialect.java</source>
+        <source>src/main/java/dao/hibernate/BaseDao.java</source>
+        <source>src/main/java/dao/hibernate/UserDaoImpl.java</source>
+        <source>src/main/java/dao/UserDao.java</source>
+        <source>src/main/java/domain/Contact.java</source>
+        <source>src/main/java/domain/User.java</source>
+        <source>src/main/java/service/UserService.java</source>
+        <source>src/main/java/web/page/BasePage.java</source>
+        <source>src/main/java/web/page/BasePage.html</source>
+        <source>src/main/java/web/page/ForgotPasswordPage.java</source>
+        <source>src/main/java/web/page/ForgotPasswordPage.html</source>
+        <source>src/main/java/web/page/IndexPage.java</source>
+        <source>src/main/java/web/page/IndexPage.html</source>
+        <source>src/main/java/web/page/ProfilePage.java</source>
+        <source>src/main/java/web/page/ProfilePage.html</source>
+        <source>src/main/java/web/page/SignInPage.java</source>
+        <source>src/main/java/web/page/SignInPage.html</source>
+        <source>src/main/java/web/page/SignUpPage.java</source>
+        <source>src/main/java/web/page/SignUpPage.html</source>
+        <source>src/main/java/web/panel/AnonActionsPanel.java</source>
+        <source>src/main/java/web/panel/AnonActionsPanel.html</source>
+        <source>src/main/java/web/panel/UserActionsPanel.java</source>
+        <source>src/main/java/web/panel/UserActionsPanel.html</source>
+        <source>src/main/java/web/security/SimpleAuthenticationSession.java</source>
+        <source>src/main/java/Application.java</source>
+    </sources>
+
+    <resources>
+        <!--
+        | bin
+        -->
+        <resource>bin/setup-local.sh</resource>
+
+
+        <!--
+        | main:resources
+        -->
+        <resource>src/main/resources/META-INF/MANIFEST.MF</resource>
+        <resource>src/main/resources/hibernate.cfg.xml</resource>
+        <resource>src/main/resources/log4j.properties</resource>
+
+        <!--
+        | main:webapp
+        -->
+        <resource>src/main/webapp/css/styles.css</resource>
+        <resource>src/main/webapp/WEB-INF/i18n/messages_en.properties</resource>
+        <resource>src/main/webapp/WEB-INF/applicationContext.xml</resource>
+        <resource>src/main/webapp/WEB-INF/web.xml</resource>
+        <resource>src/main/webapp/gulpfile.js</resource>
+        <resource>src/main/webapp/package.json</resource>
+
+        <!--
+        | :
+        -->
+        <resource>LICENSE</resource>
+        <resource>README.md</resource>
+    </resources>
+
+    <testSources>
+        <source>src/test/java/.gitkeep</source>
+    </testSources>
+
+</archetype>
