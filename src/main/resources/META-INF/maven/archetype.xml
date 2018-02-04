@@ -50,7 +50,12 @@
         <!--
         | main:webapp
         -->
+        <resource>src/main/webapp/css/sb-admin.css</resource>
         <resource>src/main/webapp/css/styles.css</resource>
+        <resource>src/main/webapp/js/sb-admin.js</resource>
+        <resource>src/main/webapp/js/sb-admin-charts.js</resource>
+        <resource>src/main/webapp/js/sb-admin-datatables.js</resource>
+
         <resource>src/main/webapp/WEB-INF/i18n/messages_en.properties</resource>
         <resource>src/main/webapp/WEB-INF/applicationContext.xml</resource>
         <resource>src/main/webapp/WEB-INF/web.xml</resource>
