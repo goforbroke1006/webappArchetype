@@ -19,7 +19,13 @@ Maven archetype for generating wep application
 4. Open parent project directory (~/MyProjects/ etc)
 5. Run
 
-        mvn archetype:generate -DarchetypeCatalog=local -DarchetypeGroupId=com.gfb -DarchetypeArtifactId=webappArchetype -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=com.example -DartifactId=newAwesomeProject123
+        mvn archetype:generate \
+            -DarchetypeCatalog=local \
+            -DarchetypeGroupId=com.gfb \
+            -DarchetypeArtifactId=webappArchetype \
+            -DarchetypeVersion=1.0-SNAPSHOT \
+            -DgroupId=com.example \
+            -DartifactId=newAwesomeProject123
 
 6. Open project directory
 
